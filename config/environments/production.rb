@@ -15,7 +15,8 @@ Omrails::Application.configure do
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = false
+  # This lines has been changed from the default of 'faulse'
+  config.assets.compile = true
 
   # Generate digests for assets URLs
   config.assets.digest = true
