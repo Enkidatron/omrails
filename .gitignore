@@ -21,3 +21,6 @@ doc/
 
 # Ignore Images from Paperclip
 /public/system
+
+# Ignore Faker sample images
+/sampleimages
