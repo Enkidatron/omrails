@@ -64,4 +64,9 @@ Omrails::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+
+  # Sets the email url for Devise
+  # In production, :host should be set to the actual host of your application.
+  config.action_mailer.default_url_options = { :host => 'http://stark-island-5615.herokuapp.com/' }
+  
 end
