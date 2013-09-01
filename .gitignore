@@ -18,3 +18,6 @@ doc/
 *~
 .project
 .idea
+
+# Ignore Images from Paperclip
+/public/system
